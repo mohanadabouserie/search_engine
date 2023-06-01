@@ -9,32 +9,32 @@ The following are five sample search query inputs and their corresponding output
       1. www.test24.com
       2. www.test4.com
 
-Input: "sports complex"
-Output:
-www.test11.com
-www.test2.com
-www.test1.com
+2. Input: "sports complex"
+   - Output:
+      1. www.test11.com
+      2. www.test2.com
+      3. www.test1.com
 
-Input: browny OR bumpy
-Output:
-www.test5.com
-www.test8.com
-www.test23.com
-www.test15.com
-www.test20.com
+3. Input: browny OR bumpy
+   - Output:
+      1. www.test5.com
+      2. www.test8.com
+      3. www.test23.com
+      4. www.test15.com
+      5. www.test20.com
 
-Input: argument AND bumpy
-Output:
-www.test5.com
-www.test23.com
+4. Input: argument AND bumpy
+   - Output:
+      1. www.test5.com
+      2. www.test23.com
 
-Input: bumpy browny
-Output:
-www.test5.com
-www.test8.com
-www.test23.com
-www.test15.com
-www.test20.com
+5. Input: bumpy browny
+   - Output:
+      1. www.test5.com
+      2. www.test8.com
+      3. www.test23.com
+      4. www.test15.com
+      5. www.test20.com
 
 ## Implementation Details
 The search engine is implemented using C++. It consists of a Graph class that represents the web graph and contains methods for building the graph, calculating page ranks, CTR, and scores, and performing searches based on user queries.
