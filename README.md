@@ -4,8 +4,8 @@ This repository contains the source code for a simple web search engine. The sea
 ## Sample Search Queries
 The following are five sample search query inputs and their corresponding outputs:
 
-- Input: wild
-- Output:
+1. Input: wild
+   Output:
     1. www.test24.com
     2. www.test4.com
 
