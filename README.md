@@ -6,8 +6,8 @@ The following are five sample search query inputs and their corresponding output
 
 1. Input: wild
    - Output:
-    1. www.test24.com
-    2. www.test4.com
+      1. www.test24.com
+      2. www.test4.com
 
 Input: "sports complex"
 Output:
